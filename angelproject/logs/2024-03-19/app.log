@@ -1,0 +1,24 @@
+[E 240319 12:01:12 views:501] Invalid Token: The provided token is not valid.
+[E 240319 12:01:12 views:501] Invalid Token: The provided token is not valid.
+[E 240319 12:01:54 views:501] Invalid Token: The provided token is not valid.
+[E 240319 12:01:54 views:501] Invalid Token: The provided token is not valid.
+[E 240319 12:02:15 views:501] Invalid Token: The provided token is not valid.
+[E 240319 12:02:15 views:501] Invalid Token: The provided token is not valid.
+[E 240319 12:02:27 views:501] Invalid Token: The provided token is not valid.
+[E 240319 12:02:27 views:501] Invalid Token: The provided token is not valid.
+[E 240319 12:16:30 views:502] Invalid Token: The provided token is not valid.
+[E 240319 12:16:30 views:502] Invalid Token: The provided token is not valid.
+[E 240319 12:20:24 views:505] Invalid Token: The provided token is not valid.
+[E 240319 12:20:24 views:505] Invalid Token: The provided token is not valid.
+[E 240319 12:20:36 views:505] Invalid Token: The provided token is not valid.
+[E 240319 12:20:36 views:505] Invalid Token: The provided token is not valid.
+[E 240319 12:20:47 views:505] Invalid Token: The provided token is not valid.
+[E 240319 12:20:48 views:505] Invalid Token: The provided token is not valid.
+[E 240319 12:29:27 views:547] Exchange NSE is not supported.
+[E 240319 12:46:08 views:547] Exchange NSE is not supported.
+[E 240319 12:46:15 views:547] Exchange NSE is not supported.
+[E 240319 12:47:26 place_order:58] Exchange NSE is not supported.
+[E 240319 13:00:02 place_order:64] Exchange NSE is not supported.
+[E 240319 13:06:51 smartConnect:210] Error occurred while making a POST request to https://apiconnect.angelbroking.com/rest/auth/angelbroking/user/v1/loginByPassword. Headers: {'Content-type': 'application/json', 'X-ClientLocalIP': '127.0.0.1', 'X-ClientPublicIP': '106.193.147.98', 'X-MACAddress': 'b3:f7:90:bb:37:9c', 'Accept': 'application/json', 'X-PrivateKey': '4dPdQcGs', 'X-UserType': 'USER', 'X-SourceID': 'WEB'}, Request: {'clientcode': 'S2098754', 'password': '2024', 'totp': '052855'}, Response: HTTPSConnectionPool(host='apiconnect.angelbroking.com', port=443): Max retries exceeded with url: /rest/auth/angelbroking/user/v1/loginByPassword (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021FC076D880>, 'Connection to apiconnect.angelbroking.com timed out. (connect timeout=7)'))
+[E 240319 13:13:58 place_order:30] Invalid Token: The provided token is not valid.
+[E 240319 17:52:28 smartConnect:235] Error occurred while making a POST request to https://apiconnect.angelbroking.com/rest/auth/angelbroking/user/v1/loginByPassword. Error: Something Went Wrong, Please Try After Sometime. URL: https://apiconnect.angelbroking.com/rest/auth/angelbroking/user/v1/loginByPassword, Headers: {'Content-type': 'application/json', 'X-ClientLocalIP': '127.0.0.1', 'X-ClientPublicIP': '106.193.147.98', 'X-MACAddress': 'b3:f7:90:bb:37:9c', 'Accept': 'application/json', 'X-PrivateKey': '4dPdQcGs', 'X-UserType': 'USER', 'X-SourceID': 'WEB'}, Request: {'clientcode': 'S2098754', 'password': '2024', 'totp': '388358'}, Response: {'message': 'Something Went Wrong, Please Try After Sometime', 'errorcode': 'AB1004', 'status': False, 'data': None}
